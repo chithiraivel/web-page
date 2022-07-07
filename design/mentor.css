@@ -1,0 +1,379 @@
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 10px 80px;
+    box-sizing: border-box;
+    background:white;
+    box-shadow: rgb(206, 203, 203);
+    position: fixed;
+}
+nav .logo{
+    padding: 8px 20px;
+    height: 40px;
+    float: left;
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-transform:uppercase;
+    color:green;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 40px;
+    color: rgb(77, 72, 72);
+    padding: 12px 25px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:lightgreen;
+    
+}
+#drop{
+    height: 50px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.image1::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom:81px;
+    top: 73px;
+    left: 0;
+    right: 0;
+}
+.image1{
+    border: 1px solid gray;
+    height: 560px; 
+    width: auto;
+    background-image: url(hero.jpg);
+    background-size: cover;
+}
+.head{
+    font-size: 60px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.head1{
+    font-size: 30px;
+    color: white;
+    padding-left: 80px;
+}
+.head2{
+    color:rgb(110, 107, 107);
+    height: 45px;
+    width: 150px;
+    border-radius: 34px;
+    margin-left: 80px;
+    margin-top: 20px;   
+   
+}
+#hero:hover{
+    background-color:green;
+}
+.second-page{
+    display: flex;
+    padding-top: 40px;
+}
+.second1-page{
+    padding-left: 80px;
+    line-height: 28px;
+    color: rgb(128, 124, 124);
+    width: 700px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second2-page{
+    border: 2px solid rgb(243, 235, 235);
+    height: 450px;
+    width: 500px;
+    background-image: url(about.jpg);
+    padding-left: 100px;
+    padding-right: 50px;
+    background-size: cover;  
+}
+.third-box{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color:rgb(21, 156, 21);
+}
+.fourth-box{
+    display: flex;
+    margin-top: 50px;
+}
+.fourth-box1{
+  border: 1px solid rgb(75, 187, 75);
+  background-color: rgb(75, 187, 75);
+  color: white;
+  height: 310px;
+  width: 340px;
+  margin-left: 80px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 30px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+.four-but{
+    margin-top: 15px;
+    margin-left: 70px;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(29, 131, 29);
+    border: none;
+}
+.four-but:hover{
+    background-color: yellowgreen;
+}
+.one{
+    font-size: 40px;padding-left: 80px;padding-top: 15px;color: green;
+}
+.one2{
+    font-size: 40px;padding-left: 80px;padding-top: 15px;color: green;
+}
+.one3{
+    font-size: 40px;padding-left: 80px;padding-top: 15px;color: green;
+}
+.sec{
+    padding-top: 10px;
+    padding-right: 30px;
+    font-weight:bold;
+}
+.fourth-box2{
+    border: 1px solid white;
+    height: 350px;
+    width: 250px;
+    margin-left: 80px;
+  }
+  .fourth-box3{
+    border: 1px solid white;
+    height: 350px;
+    width: 250px;
+    margin-left: 60px;
+  }
+  .fourth-box4{
+    border: 1px solid white;
+    height: 350px;
+    width: 250px;
+    margin-left: 30px;
+
+  }
+  .small-box{
+      display: flex;
+      margin-top:60px;
+      margin-left: 80px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      border: 1px solid white;
+      height: 350px;
+      width: auto;
+  }
+  .icon-box{
+  display: flex;
+  align-items: center;
+  color: rgb(88, 86, 86);
+  border: 1px solid white;
+  width: 310px;
+  height: 50px;
+  margin-top: 35px;
+  font-size: 20px;
+  justify-content: space-around;
+  font-family: sans-serif serif;
+  }
+  .icon-box1{
+    font-size:26px ;
+  }
+  .icon-box2{
+    font-size: 26px;
+  }
+  .icon-box:hover{
+      color: green;
+  }
+  .web{
+      display: flex;
+      padding-left: 80px;
+      justify-content: space-around;
+  }
+  .first-box{
+     
+      height: 300px;
+      width: 320px;
+      margin-top: 30px;
+      margin-left: 38px;
+      background-image: url(course-1.jpg);
+      background-size:cover;
+  }
+  .second-box{
+       
+        height: 300px;
+        width: 320px;
+        margin-top: 30px;
+        margin-left: 38px;
+        background-image: url(course-2.jpg);
+        background-size:cover;
+  }
+  .third1-box{
+   
+    height: 300px;
+    width: 320px;
+    margin-top: 30px;
+    margin-left: 38px;
+    background-image: url(course-3.jpg);
+     background-size:cover;
+}
+  .monitor{
+      border: 1px solid red;
+      border: none;
+      width: 400px;
+      height: 550px;
+  }
+  .design{
+      border: 1px solid rgb(36, 143, 36);
+      height: 30px;
+      width: 150px;
+      text-align: center;
+      margin-left: 40px;
+      margin-top: 50px;
+      padding-top: 15px;
+      background-color: rgb(36, 143, 36);
+      color: aliceblue;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+   .person{
+       display: flex;
+       margin-left: 70px;
+       margin-top: 40px;
+       justify-content: space-around;
+   }
+  .employ{
+      height: 80px;
+      width: 300px;
+  }
+  .round1{
+      
+      height: 60px;
+      width: 60px;
+      border-radius: 200px;
+      background-image: url(trainer-1.jpg);
+      background-size: contain;
+  }
+  .round2{
+    
+    height: 60px;
+    width: 60px;
+    border-radius: 200px;
+    background-image: url(trainer-2.jpg);
+    background-size: contain;
+}
+.round3{
+    
+    height: 60px;
+    width: 60px;
+    border-radius: 200px;
+    background-image: url(trainer-3.jpg);
+    background-size: contain;
+}
+.num{
+    display: flex;
+}
+.no{
+    padding-left: 130px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.profe{
+    height: 600px;
+    width:1270px;
+    margin-left: 110px;
+    margin-top: 90px;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+.teach1{
+   
+    height: 400px;
+    width: 380px;
+    background-image: url(trainer-1.jpg);
+    background-size:cover;
+    
+}
+.teach2{
+   
+    height: 400px;
+    width: 380px;
+    background-image: url(trainer-2.jpg);
+    background-size:cover;
+    
+}
+.teach3{
+   
+    height: 400px;
+    width: 380px;
+    background-image: url(trainer-3.jpg);
+    background-size:cover;
+    
+}
+.fash{
+   
+    width: 300px;
+    padding-top: 400px;
+    text-align: center;
+}
+.last{
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-around;
+    margin-top: 130px;
+    line-height: 30px;
+}
+.top-two{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.two{
+    background-color: lightgreen;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    color: aliceblue;
+}
+.center{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.color-{
+    color: lightgreen;
+}
+.sub input{
+    border: 1px solid rgb(209, 202, 202);
+    height: 40px;
+    width: 300px;
+    border-radius: 80px;
+}
+.sub button{
+    height: 40px;
+    width: 90px;
+    border-radius: 80px;
+    background-color: rgb(76, 168, 76);
+    color:white;
+}
